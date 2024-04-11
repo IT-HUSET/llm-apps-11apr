@@ -54,6 +54,8 @@
 
 ## References, docs and courses
 
+### Flutter & Dart Chat/RAG-app
+https://github.com/tolo/wanna_chat
 
 ### Prompting
 
