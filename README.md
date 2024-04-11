@@ -44,7 +44,9 @@
 ### 4. Include use of other types of models, such as CLIP
 * https://python.langchain.com/docs/integrations/text_embedding/open_clip/
 
-### 5. Use local models
+### 5. Use other LLMs, such as Anthropic Claude
+
+### 6. Use local models
 * https://python.langchain.com/docs/use_cases/question_answering/local_retrieval_qa/
 * https://python.langchain.com/docs/integrations/text_embedding/self-hosted/
 
