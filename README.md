@@ -1,10 +1,10 @@
-# Workshop LLM-apps April 11
+# Workshop LLM-apps April 11 / May 16
 
 ![Wanna chat](images/wannachat.png)
 
 # Welcome!
 
-## Sample code to get started
+## Part 1 - Learning the frameworks through sample code
 
 ### Using the Open AI API
 
@@ -29,11 +29,29 @@
 #### 2.6. [Chat with memory](langchain/2.6-chat-with-memory.ipynb)
 #### 2.7. [Conversational Agent](langchain/2.7-conversational-agent.ipynb)
 
+### Complete RAG app sample (wanna_chat_python)
 
-## Challenges
+* [wanna_chat_python](https://github.com/tolo/wanna_chat_python) - A simple LangChain RAG app, using htmx.
+
+## Part 2A - Hands-on Challenges
+
+### 1. Build and tweak an ingestion pipeline
+* Start with building upon the 2.3 indexing example above (for instance)
+* Try different methods of
+  * Loading
+  * Splitting
+  * Embedding (i.e. different embedding models)
+  * Searching (i.e. )
+
+### 2. Build a simple RAG query pipline 
+* Take inspiration from 2.4/2.5 above, and also the wanna_chat_python app.
+
+
+## Part 2B - Additional Challenges
 
 ### 1. Use your own data and build a simple RAG/LLM-app with the learnings from above
-* Potentially use another Vector DB, such as [Pinecode](https://www.pinecone.io)
+* Potentially use another Vector DB, such as [Weaviate](https://weaviate.io), [Pinecode](https://www.pinecone.io), 
+  [Google Vertex AI Vector Search](https://cloud.google.com/vertex-ai/docs/vector-search/overview) etc.
 
 ### 2. Add Self-query (initial classification step) to your LLM-app
 * https://python.langchain.com/docs/modules/data_connection/retrievers/self_query/
@@ -124,3 +142,12 @@ https://github.com/tolo/wanna_chat
  
 * **[Functions, Tools and Agents with LangChain](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)**
   (Most up-to-date course on LangChain)
+
+### Vector stores
+
+* [Vector Databases: from Embeddings to Applications (Weaviate)](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/)
+
+* [Building Multimodal Search and RAG (Weaviate)](https://www.deeplearning.ai/short-courses/building-multimodal-search-and-rag/)
+
+* [Building Applications with Vector Databases (Pinecone)](https://www.deeplearning.ai/short-courses/building-applications-vector-databases/)
+
