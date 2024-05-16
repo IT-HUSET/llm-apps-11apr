@@ -72,6 +72,11 @@
 
 ## References, docs and courses
 
+### RAFT model
+
+[RAFT:  A new way to teach LLMs to be better at RAG](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/raft-a-new-way-to-teach-llms-to-be-better-at-rag/ba-p/4084674)
+
+
 ### Flutter & Dart Chat/RAG-app
 https://github.com/tolo/wanna_chat
 
